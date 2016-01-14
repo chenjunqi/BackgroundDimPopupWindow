@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BackgroundDimPopupWindow.iml" filepath="$PROJECT_DIR$/BackgroundDimPopupWindow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backgrounddimpopupwindow/backgrounddimpopupwindow.iml" filepath="$PROJECT_DIR$/backgrounddimpopupwindow/backgrounddimpopupwindow.iml" />
     </modules>
   </component>
 </project>
