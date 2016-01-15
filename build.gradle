@@ -14,24 +14,8 @@ buildscript {
     }
 }
 
-//Properties properties = new Properties()
-//properties.load(project.rootProject.file('local.properties').newDataInputStream())
-//allprojects {
-//    repositories {
-//        maven {
-//            url properties.getProperty("sdk.dir") + "/extras/android/m2repository"
-//        }
-//        mavenLocal()
-//        jcenter()
-//    }
-//}
-
 allprojects {
     repositories {
         jcenter()
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }

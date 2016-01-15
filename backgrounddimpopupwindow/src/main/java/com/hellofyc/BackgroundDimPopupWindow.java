@@ -1,4 +1,4 @@
-package com.hellofyc.backgrounddimpopupwindow;
+package com.hellofyc;
 
 import android.app.Activity;
 import android.content.Context;

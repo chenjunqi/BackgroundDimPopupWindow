@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 3
-        versionName "0.3"
+        versionCode 5
+        versionName "0.5"
     }
 
     buildTypes {
@@ -24,4 +24,4 @@ dependencies {
     compile 'com.android.support:support-annotations:23.1.1'
 }
 
-apply from: "https://raw.githubusercontent.com/xiaopansky/android-library-publish-to-jcenter/master/bintrayUpload.gradle"
+apply from: rootProject.file("release.gradle")
